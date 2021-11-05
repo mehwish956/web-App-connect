@@ -1,0 +1,400 @@
+@media screen and (min-width: 1210px) and (max-width: 1326px) {
+  .At-Scetion .calling_group {
+    width: 100%;
+  }
+  .At-Scetion .calling_group {
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .form {
+    padding: 0rem;
+  }
+  .frame1_image {
+    width: 326px;
+  }
+  .At-Scetion .calling_group {
+    width: 100%;
+  }
+  .calling_group .list-group h4 {
+    font-size: 20px;
+  }
+  .media .media-body h5 {
+    font-size: 18px;
+  }
+  .frame_image {
+    width: 437px;
+    margin-top: 3rem;
+  }
+  .credit-card {
+    width: 100%;
+    margin-top: 0rem;
+    height: auto;
+  }
+  .sign_updiv1 {
+    width: 100%;
+    height: auto;
+  }
+  .user_time {
+    width: 108px;
+    height: 52px;
+    font-size: 11px;
+  }
+}
+@media (max-width: 992px) {
+  .Continue_btn {
+    width: 100%;
+  }
+  .form-group .code {
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    padding: 23px;
+  }
+  .sign_haeding {
+    font-size: 20px;
+  }
+  .frame1_image {
+    width: 100%;
+    height: auto;
+  }
+  .frame_image {
+    width: 100%;
+    margin-top: 34px;
+  }
+  .google_div {
+    width: 100%;
+    height: 57px;
+  }
+  .container {
+    padding: 70px 20px 20px 20px;
+  }
+
+  .credit-card {
+    margin-left: 2rem;
+  }
+  .At-Scetion .calling_group {
+    width: 100%;
+  }
+  .form {
+    padding: 0px;
+  }
+  .TypeA_card {
+    width: 100%;
+  }
+  .alphabetics {
+    width: 100%;
+  }
+  .AndyCory {
+    font-size: 15px;
+    line-height: 28px;
+  }
+  .calling_group .fa-star {
+    margin-top: 11px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .At-Scetion .calling_group {
+    height: auto;
+    padding: 15px;
+  }
+  .calling_group .list-group h4 {
+    font-size: 18px;
+  }
+  .media .media-body h5 {
+    font-size: 16px;
+  }
+  .plus_div {
+    margin-top: 2rem;
+  }
+  .persent_text {
+    font-size: 13px;
+  }
+  .media .media-body p {
+    font-size: 12px;
+  }
+  .card_text {
+    font-size: 15px;
+  }
+  .form-item input {
+    height: 40px;
+  }
+  .form-item label {
+    top: 10px;
+  }
+  .sign_updiv1 {
+    width: 100%;
+  }
+  .credit-card {
+    margin-left: 1rem;
+    width: 100%;
+  }
+  .At-header {
+    padding: 1rem 4rem;
+  }
+  .At-header .Settings_heading {
+    font-size: 20px;
+  }
+  .TypeA_card {
+    height: auto;
+  }
+  .alphabetics {
+    height: 45px;
+    padding: 10px;
+  }
+  .frame_image {
+    margin-top: 6rem;
+  }
+  .sign_haeding {
+    font-size: 20px;
+  }
+  .Signin_text {
+    font-size: 20px;
+  }
+  .google_div {
+    height: 45px;
+  }
+  .google_div p {
+    font-size: 16px;
+  }
+  .sign_link {
+    margin-top: 2rem;
+    font-size: 13px;
+  }
+  .confirmation_text {
+    font-size: 14px;
+  }
+  .sign_updiv {
+    height: 349px;
+    width: 100%;
+  }
+  .conutry_input {
+    width: 100%;
+  }
+  .Continue_btn {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .sign_updiv h3 {
+    font-size: 18px;
+  }
+  .sign_updiv1 h4 {
+    font-size: 18px;
+  }
+  .number_text {
+    font-size: 14px;
+  }
+  .conutry_input {
+    margin-top: 2rem;
+  }
+  .form-group .code {
+    width: 50px;
+    height: 50px;
+    padding: 18px;
+    font-size: 21px;
+  }
+  .Continue_btn1 {
+    width: 100%;
+  }
+
+  .At-ProfileSection {
+    width: 100%;
+  }
+  #videocalling_div {
+    padding-bottom: 10rem;
+  }
+}
+@media (max-width: 576px) {
+  .frame1_image {
+    display: none;
+  }
+  .credit-card {
+    margin-left: 5rem;
+    width: 69%;
+  }
+  .avatar_image {
+    display: none;
+  }
+  .frame_image {
+    width: 92%;
+    /* height: auto; */
+    margin-left: 1rem;
+    height: auto;
+  }
+  .container {
+    padding: 0px 20px 20px 20px;
+  }
+  .sign_divColor2 {
+    bottom: 0rem;
+  }
+  .sign_divColor3 {
+    bottom: 0rem;
+  }
+  .google_div {
+    height: 54px;
+  }
+}
+@media (max-width: 414px) {
+  .At-VideoCalling {
+    padding-top: 2rem;
+  }
+  .At-ProfileSection {
+    background: none;
+    box-shadow: none;
+    padding: 10px;
+    margin-top: 2rem;
+  }
+  .float {
+    position: fixed;
+    top: 19rem;
+  }
+  .call_div {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .user_time {
+    width: 146px;
+    font-size: 14px;
+  }
+  .timepicker_time {
+    margin-left: 3px;
+  }
+  .sign_updiv1 {
+    padding: 40px 15px;
+    margin-bottom: 2rem;
+  }
+  .sign_updiv1 h4 {
+    font-size: 17px;
+  }
+  .timepicker_day {
+    font-size: 14px;
+  }
+  .persent_text {
+    font-size: 12px;
+  }
+  .calling_camera {
+    display: none;
+  }
+  .plus_div {
+    margin-top: 5rem;
+  }
+  .calling_group .list-group h4 {
+    font-size: 16px;
+  }
+  .At-Scetion .calling_group {
+    margin-bottom: 5rem;
+    padding: 20px;
+  }
+  .media .media-body h5 {
+    font-size: 15px;
+  }
+  .At-ProfileSection .MobileNo {
+    font-size: 16px;
+  }
+  .ti-mobile {
+    font-size: 20px;
+  }
+  .At-ProfileSection .fa-venus {
+    font-size: 23px;
+  }
+  .At-ProfileSection .fa-mars-stroke-v {
+    font-size: 23px;
+  }
+  .icon_img {
+    width: 25px;
+    height: 23px;
+  }
+  .At-ProfileSection .fa-eye-slash {
+    font-size: 20px;
+  }
+  .genderdropdown {
+    font-size: 15px;
+  }
+  .At-ProfileSection .ti-angle-right {
+    font-size: 14px;
+  }
+  .TypeA_card {
+    padding: 30px;
+  }
+  .Expiry_div {
+    width: 100px;
+  }
+  .Expiry_div1 {
+    width: 100px;
+    margin-left: -21px;
+  }
+  .Continue_btn {
+    font-weight: normal;
+  }
+  .credit-card {
+    margin-top: 0rem;
+    height: 261px;
+    margin-left: 3rem;
+    width: 76%;
+  }
+  .At-header {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 1rem 2rem;
+  }
+  .Continue_btn1 {
+    font-weight: normal;
+  }
+  .At-header .Settings_heading {
+    font-size: 15px;
+  }
+  .frame_image {
+    margin-left: 2rem;
+    width: 88%;
+    margin-top: 3rem;
+  }
+  .sign_haeding {
+    display: none;
+  }
+  .Signin_text {
+    text-align: center;
+  }
+  .At-VideoCalling li img {
+    top: 21.25rem;
+  }
+  .At-VideoCalling .VideoCalling_img {
+    top: 20rem;
+  }
+  .conutry_input p {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 375px) {
+  .timepicker_time {
+    width: 30px;
+    height: 30px;
+  }
+  .timepicker_time p {
+    font-size: 12px;
+    top: 6px;
+  }
+  .At-Scetion .calling_group {
+    padding: 20px 20px 20px 15px;
+  }
+  .sign_updiv1 h4 {
+    font-size: 15px;
+  }
+  .sign_updiv1 h3 {
+    font-size: 16px;
+  }
+  .sign_updiv {
+    padding: 40px 20px;
+  }
+  .Continue_btn {
+    font-weight: normal;
+  }
+}
+@media screen and (min-width: 570px) and (max-width: 770px) {
+  .img-fluid {
+    max-width: 67%;
+    height: auto;
+  }
+}

@@ -1,0 +1,690 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.At-signIn {
+  width: 100%;
+  position: relative;
+}
+.sign_divColor {
+  position: absolute;
+  width: 174px;
+  height: 174px;
+  border-radius: 50%;
+  background: #fff9e2;
+  filter: blur(100px);
+  z-index: -999;
+}
+.sign_divColor1 {
+  position: absolute;
+  right: 0rem;
+  width: 212px;
+  height: 212px;
+  border-radius: 50%;
+  background: #e2ffe4;
+  filter: blur(100px);
+  z-index: -999;
+}
+.container {
+  padding: 3.55rem 20px 0px 20px;
+}
+.sign_haeding {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  /* identical to box height, or 129% */
+  letter-spacing: 0.03em;
+  color: #5492fd;
+}
+.frame_image {
+  width: 602px;
+  height: 330px;
+  margin-top: 2rem;
+}
+.Signin_text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.03em;
+  color: #092c4c;
+}
+.google_div {
+  width: 495px;
+  height: 68px;
+  background: #ffffff;
+  border: 1px solid #cac7c7;
+  box-sizing: border-box;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.google_div .fa-envelope {
+  font-size: 35px;
+  color: #565656;
+}
+.google_div p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #565656;
+  margin-bottom: 0px;
+}
+
+.google_div .facebook {
+  width: 30px;
+  height: 30px;
+  background-color: #2c5a98;
+  border-radius: 50%;
+}
+.google_div .fa-facebook-f {
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 5px;
+}
+.sign_link {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 14px;
+  /* identical to box height, or 70% */
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #092c4c;
+  margin-bottom: 0rem;
+}
+a:hover {
+  text-decoration: none;
+}
+.sign_divColor2 {
+  position: absolute;
+  width: 213px;
+  height: 213px;
+  background: #ffe7e0;
+  filter: blur(100px);
+  left: 0rem;
+  bottom: 0rem;
+}
+.sign_divColor3 {
+  position: absolute;
+  width: 174px;
+  height: 174px;
+  background: #e0e2ff;
+  filter: blur(100px);
+  right: 0rem;
+  bottom: 0rem;
+}
+.sign_updiv {
+  width: 468px;
+  height: 413px;
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 40px 47px;
+}
+.sign_updiv h3 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 130%;
+  /* identical to box height, or 29px */
+  /* Text */
+  color: #2a2a2a;
+}
+.sign_updiv1 h4 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 130%;
+  color: #2a2a2a;
+}
+.number_text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #6d6d6d;
+  margin-bottom: 0rem;
+  margin-top: 12px;
+}
+.conutry_input {
+  width: 374px;
+  height: 60px;
+  background: #ffffff;
+  border: 1px solid #cac7c7;
+  box-sizing: border-box;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 4rem;
+}
+.Continue_btn {
+  width: 336px;
+  border-radius: 8px;
+  height: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 37px;
+  /* identical to box height, or 21px */
+  color: #ffffff;
+  margin-top: 4rem;
+  transition: all 0.5s;
+  box-shadow: inset 0 0 0 0 red;
+  border: none;
+  background: #5492fd;
+}
+.Continue_btn:hover {
+  color: #ffffff;
+  box-shadow: inset 400px 0 0 0 red;
+}
+.Continue_btn1 {
+  width: 247px;
+  border-radius: 8px;
+  height: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 37px;
+  /* identical to box height, or 21px */
+  color: #ffffff;
+  margin-top: 2rem;
+  transition: all 0.5s;
+  box-shadow: inset 0 0 0 0 red;
+  border: none;
+  background: #5492fd;
+}
+.Continue_btn1:hover {
+  color: #fff;
+  box-shadow: inset 250px 0 0 0 red;
+}
+.conutry_input p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #8f8f8f;
+  margin-bottom: 0rem;
+}
+.At-SelectLang select {
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2a2a2a;
+}
+.form-group .code {
+  width: 72px;
+  height: 72px;
+  background: #f9fcff;
+  /* Secondary */
+  border: 1px solid #5492fd;
+  box-sizing: border-box;
+  border-radius: 12px;
+  margin: 0px 7px;
+  padding: 25px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #2a2a2a;
+}
+.confirmation_text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #a3a3a3;
+  margin-top: 1rem;
+}
+.sign_updiv1 {
+  width: 600px;
+  height: 430px;
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 40px 47px;
+}
+.form-group {
+  margin-top: 2rem;
+}
+.TypeA_card {
+  width: 468px;
+  height: 347px;
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 47px;
+}
+.type_text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2a2a2a;
+}
+.alphabetics {
+  width: 374px;
+  height: 60px;
+  background: #ffffff;
+  border: 1px solid #cac7c7;
+  box-sizing: border-box;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Open Sans", sans-serif;
+  color: #2a2a2a;
+}
+/* at-header */
+.At-header {
+  width: 100%;
+  height: 115px;
+  background: #5492fd;
+  z-index: 2;
+  height: 90px;
+  padding: 1rem 8rem;
+}
+.At-header .Settings_heading {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.At-header .fa-arrow-left {
+  color: #ffffff;
+  font-size: 25px;
+}
+.At-ProfileSection {
+  margin: auto;
+  width: 920px;
+  height: 490px;
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 30px;
+}
+.profile_images {
+  width: 94px;
+  height: 94px;
+  border-radius: 50%;
+}
+.At-ProfileSection .edit {
+  position: relative;
+  width: 34.78px;
+  height: 34.78px;
+  background: #5492fd;
+  border-radius: 50%;
+  top: -2rem;
+  left: 4rem;
+}
+.At-ProfileSection .edit .fa-edit {
+  color: #ffffff;
+  position: absolute;
+  top: 7px;
+  left: 10px;
+}
+.At-ProfileSection .MobileNo {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 130%;
+  /* or 31px */
+  color: #686868;
+  margin-bottom: 0rem;
+}
+.ti-mobile {
+  margin-right: 10px;
+  font-size: 25px;
+  color: #686868;
+  opacity: 0.5;
+}
+
+.At-ProfileSection .fa-eye-slash {
+  font-size: 25px;
+  color: #686868;
+  opacity: 0.5;
+}
+.At-ProfileSection .fa-venus {
+  font-size: 25px;
+  color: #686868;
+  opacity: 0.5;
+}
+.At-ProfileSection .fa-mars-stroke-v {
+  margin-right: 10px;
+  font-size: 25px;
+  color: #686868;
+  opacity: 0.5;
+}
+.genderdropdown {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #938b8b;
+}
+.dropdown-menu {
+  min-width: 7rem;
+}
+.dropdown-item {
+  padding: 0px 10px;
+}
+.icon_img {
+  width: 29px;
+  height: 30px;
+  margin-right: 10px;
+}
+.At-ProfileSection .ti-angle-right {
+  font-size: 18px;
+  font-weight: 800;
+}
+.avatar_image {
+  margin-bottom: 0rem;
+  margin-top: -8px;
+  border-radius: 50%;
+  height: 46px;
+}
+.frame1_image {
+  width: 426px;
+  height: 450px;
+  float: right;
+  margin-top: 3rem;
+}
+.At-Scetion .calling_group {
+  width: 600px;
+  height: 490px;
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 40px;
+  position: relative;
+}
+.calling_group .list-group h4 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #2a2a2a;
+}
+.media img {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
+.media .media-body h5 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2a2a2a;
+  margin-bottom: 0rem;
+}
+.media .media-body p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #929292;
+  margin-bottom: 0rem;
+}
+.digit_text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #929292;
+  margin-bottom: 0rem;
+  margin-top: 16px;
+}
+
+.AndyCory {
+  padding: 0rem;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #2a2a2a;
+}
+.calling_group .fa-star {
+  color: #f0c017;
+  font-size: 20px;
+}
+.credit-card {
+  width: 367px;
+  height: 393px;
+  margin-left: 7rem;
+  margin-top: 2rem;
+}
+.persent_text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #5492fd;
+  margin-bottom: 0rem;
+}
+*,
+*:focus {
+  outline: none;
+}
+
+.form {
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 0px 60px;
+}
+.form-item {
+  position: relative;
+  margin-bottom: 15px;
+}
+.form-item input {
+  display: block;
+  width: 100%;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  padding: 0 15px;
+}
+.form-item input:focus {
+  border-color: blue;
+}
+.form-item label {
+  position: absolute;
+  cursor: text;
+  z-index: 2;
+  top: 15px;
+  left: 10px;
+  font-weight: 600;
+  background: #fff;
+  padding: 0 10px;
+  transition: all 0.3s ease;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #77838f;
+}
+.form-item input:focus + label,
+.form-item input:valid + label {
+  font-size: 11px;
+  top: -7px;
+}
+.form-item input:focus + label {
+  color: blue;
+}
+.card_text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #353535;
+  margin-bottom: 6px;
+}
+#Expiry_text {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+.Amount_div {
+  margin-top: 10px;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 100%;
+  height: 50px;
+  padding: 16px 15px;
+}
+.Amount_div p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #353535;
+}
+
+.timepicker_day {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #2a2a2a;
+  margin-bottom: 5px;
+  margin-left: 6px;
+}
+.timepicker_time {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #5492fd;
+  margin-left: 1rem;
+}
+.timepicker_time p {
+  position: absolute;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  left: 8px;
+  top: 4px;
+}
+.user_time {
+  margin-top: 29px;
+  width: 175px;
+  height: 60px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  border-radius: 6px;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 21px;
+  /* identical to box height */
+  padding: 0px;
+  color: #000;
+}
+.user_time:hover {
+  opacity: 0.5;
+}
+.Email_box {
+  width: 35px;
+  height: 35px;
+}
+.At-VideoCalling {
+  background: url(\../images/Rectangle\ 844.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 625px;
+}
+.At-VideoCalling .VideoCalling_img {
+  position: relative;
+  top: 15rem;
+}
+.At-VideoCalling li img {
+  position: relative;
+  top: 17rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: transform 0.5s;
+  margin-right: 1rem;
+}
+.At-VideoCalling li img:hover {
+  transform: translateY(-10px);
+}
+.At-signIn {
+  background: url(\../images/Group\ 5470.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  left: 0rem;
+  top: 0rem;
+  bottom: 0rem;
+  right: 0rem;
+  padding-bottom: 4rem;
+}
+.float {
+  top: 35rem;
+  width: 50px;
+  height: 50px;
+  background: #5492fd;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.45);
+}
+
+.my-float {
+  margin-top: 16px;
+}

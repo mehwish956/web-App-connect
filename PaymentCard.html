@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Web App Connected</title>
+
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="css/all.css" />
+  <link rel="stylesheet" href="css/responsive.css">
+
+
+</head>
+
+<body>
+  <div class="At-signIn">
+    <div class="At-header">
+      <div class="row mt-3">
+        <div class="col-3">
+          <a href="SelectSlot.html">
+            <img src="images/back-arrow.png" alt="icon not found" class="img-fluid" />
+          </a>
+        </div>
+        <div class="col-6">
+          <p class="Settings_heading mr-auto text-center">Payment</p>
+        </div>
+        <div class="col-3 text-right">
+          <figure class="avatar_image">
+            <img src="images/avatar.png" alt="iamges not found" class="img-fluid" />
+          </figure>
+        </div>
+      </div>
+    </div>
+    <!-- header ends -->
+    <div class="At-Scetion">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 order-md-1 order-2 call_div">
+            <div class="calling_group">
+              <!-- form card -->
+              <form class="form">
+                <p class="card_text">Card Holder</p>
+                <div class="form-item">
+                  <input type="Name" id="Name" autocomplete="off" required>
+                  <label for="Name">Name</label>
+                </div>
+                <div class="form-item">
+                  <p class="card_text">Card Number</p>
+                  <input autocapitalize="off" autocorrect="off" maxlength=20 type="text"
+                    placeholder="4652 5462 4652 5462" id="pin" name="pin" />
+                  <script>
+                    function space(str, after) {
+                      if (!str) {
+                        return false;
+                      }
+                      after = after || 4;
+                      var v = str.replace(/[^\dA-Z]/g, ''),
+                        reg = new RegExp(".{" + after + "}", "g");
+                      return v.replace(reg, function (a) {
+                        return a + ' ';
+                      });
+                    }
+
+                    var el = document.getElementById('pin');
+                    el.addEventListener('keyup', function () {
+                      this.value = space(this.value, 4);
+                    });
+                  </script>
+                </div>
+                <div class="row justify-content-between">
+                  <div class="col-4">
+                    <div class="form-item Expiry_div">
+                      <p class="card_text">Expiry Date</p>
+                      <input id="Expiry_text" type="Name" id="Name" autocomplete="off" required placeholder="07/25">
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="form-item Expiry_div1">
+                      <p class="card_text">CVC</p>
+                      <input id="Expiry_text" type="Name" id="Name" autocomplete="off" required placeholder="674">
+                    </div>
+                  </div>
+                </div>
+                <div class="Amount_div d-flex">
+                  <p class="mr-auto">Total Amount</p>
+                  <p>$ 50.00</p>
+                </div>
+                <!-- checkout btn -->
+                <div class="row justify-content-center mx-0">
+                  <a href="Paymentcode.html" class="btn  Continue_btn mt-4">
+                    Checkout
+                  </a>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-6 order-md-2 order-1">
+            <figure class="credit-card">
+              <img src="images/credit-card 1.png" alt="images not found" class="img-fluid" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+</body>
+
+</html>
