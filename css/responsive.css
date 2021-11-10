@@ -7,6 +7,15 @@
   }
 }
 @media (max-width: 1200px) {
+  .week_div {
+    margin: 0px 9px;
+  }
+  .week_div1 {
+    margin-right: 50px;
+  }
+  .container {
+    padding: 20px;
+  }
   .form {
     padding: 0rem;
   }
@@ -30,13 +39,14 @@
     width: 100%;
     margin-top: 0rem;
     height: auto;
+    margin-left: 3rem;
   }
   .sign_updiv1 {
     width: 100%;
     height: auto;
   }
   .user_time {
-    width: 108px;
+    width: 100%;
     height: 52px;
     font-size: 11px;
   }
@@ -66,9 +76,6 @@
     width: 100%;
     height: 57px;
   }
-  .container {
-    padding: 70px 20px 20px 20px;
-  }
 
   .credit-card {
     margin-left: 2rem;
@@ -90,8 +97,14 @@
     line-height: 28px;
   }
   .calling_group .fa-star {
-    margin-top: 11px;
+    margin-top: 14px;
     font-size: 16px;
+  }
+  .week_div {
+    margin: 0px 9px;
+  }
+  .week_div1 {
+    margin-right: 50px;
   }
 }
 
@@ -117,9 +130,6 @@
   }
   .card_text {
     font-size: 15px;
-  }
-  .form-item input {
-    height: 40px;
   }
   .form-item label {
     top: 10px;
@@ -223,9 +233,6 @@
     margin-left: 1rem;
     height: auto;
   }
-  .container {
-    padding: 0px 20px 20px 20px;
-  }
   .sign_divColor2 {
     bottom: 0rem;
   }
@@ -235,40 +242,63 @@
   .google_div {
     height: 54px;
   }
+  .At-PaymentCardScetion {
+    padding: 0px;
+  }
 }
 @media (max-width: 414px) {
+  #Upcoming_div {
+    margin-bottom: 4rem;
+  }
+  .week_div {
+    margin: 0px 10px;
+  }
+  .At-signIn {
+    padding-bottom: 0px;
+  }
+  .form-item label {
+    top: 15px;
+  }
+  .list-group-item {
+    padding: 0.75rem 0rem;
+  }
   .At-VideoCalling {
     padding-top: 2rem;
   }
   .At-ProfileSection {
-    background: none;
-    box-shadow: none;
-    padding: 10px;
-    margin-top: 2rem;
+    height: 100%;
+    padding: 20px;
   }
   .float {
     position: fixed;
-    top: 19rem;
+    right: 1rem;
+    bottom: 1rem;
   }
-  .call_div {
-    padding-left: 0px;
-    padding-right: 0px;
+  .container {
+    padding: 20px;
   }
   .user_time {
-    width: 146px;
     font-size: 14px;
   }
+  .week_div1 {
+    margin-right: 10px;
+  }
   .timepicker_time {
-    margin-left: 3px;
+    width: 30px;
+    height: 30px;
+    margin-left: -16px;
   }
   .sign_updiv1 {
     padding: 40px 15px;
-    margin-bottom: 2rem;
   }
   .sign_updiv1 h4 {
     font-size: 17px;
   }
+  .timepicker_time p {
+    font-size: 13px;
+  }
   .timepicker_day {
+    margin-left: -12px;
     font-size: 14px;
   }
   .persent_text {
@@ -284,8 +314,8 @@
     font-size: 16px;
   }
   .At-Scetion .calling_group {
-    margin-bottom: 5rem;
     padding: 20px;
+    width: 100%;
   }
   .media .media-body h5 {
     font-size: 15px;
@@ -322,8 +352,8 @@
     width: 100px;
   }
   .Expiry_div1 {
+    margin-left: -10px;
     width: 100px;
-    margin-left: -21px;
   }
   .Continue_btn {
     font-weight: normal;
@@ -366,8 +396,23 @@
     font-size: 15px;
     margin-left: 10px;
   }
+  .form-group .code {
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    padding: 23px;
+  }
+  #Continue {
+    width: 76%;
+  }
 }
 @media (max-width: 375px) {
+  .week_div {
+    margin: 0px 8px;
+  }
+  .Expiry_div1 {
+    margin-left: -22px;
+  }
   .timepicker_time {
     width: 30px;
     height: 30px;
@@ -377,7 +422,8 @@
     top: 6px;
   }
   .At-Scetion .calling_group {
-    padding: 20px 20px 20px 15px;
+    padding: 20px;
+    width: 100%;
   }
   .sign_updiv1 h4 {
     font-size: 15px;
@@ -390,6 +436,9 @@
   }
   .Continue_btn {
     font-weight: normal;
+  }
+  .user_time {
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 570px) and (max-width: 770px) {

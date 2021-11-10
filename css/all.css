@@ -3,10 +3,6 @@
   padding: 0px;
   margin: 0px;
 }
-.At-signIn {
-  width: 100%;
-  position: relative;
-}
 .sign_divColor {
   position: absolute;
   width: 174px;
@@ -27,7 +23,7 @@
   z-index: -999;
 }
 .container {
-  padding: 3.55rem 20px 0px 20px;
+  padding: 20px 20px 0px 20px;
 }
 .sign_haeding {
   font-family: "Open Sans", sans-serif;
@@ -476,13 +472,14 @@ a:hover {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 25px;
   /* identical to box height */
   color: #2a2a2a;
 }
 .calling_group .fa-star {
   color: #f0c017;
-  font-size: 20px;
+  font-size: 18px;
+  margin-top: 12px;
 }
 .credit-card {
   width: 367px;
@@ -604,7 +601,12 @@ a:hover {
   height: 35px;
   border-radius: 50%;
   background: #5492fd;
-  margin-left: 1rem;
+}
+.week_div {
+  margin: 0px 14px;
+}
+.week_div1 {
+  margin-right: 31px;
 }
 .timepicker_time p {
   position: absolute;
@@ -616,7 +618,7 @@ a:hover {
 }
 .user_time {
   margin-top: 29px;
-  width: 175px;
+  width: 185px;
   height: 60px;
   background: #ffffff;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
@@ -672,10 +674,25 @@ a:hover {
   top: 0rem;
   bottom: 0rem;
   right: 0rem;
+}
+.At-signIn1 {
+  background: url(\../images/Group\ 5470.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  left: 0rem;
+  top: 0rem;
+  bottom: 0rem;
+  right: 0rem;
   padding-bottom: 4rem;
 }
+.At-PaymentCardScetion {
+  padding: 2rem 0px;
+}
 .float {
-  top: 35rem;
+  position: relative;
+  right: 2rem;
   width: 50px;
   height: 50px;
   background: #5492fd;
